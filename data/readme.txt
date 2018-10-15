@@ -72,3 +72,32 @@ format: time angle_velocity angle sine_signal(acc)  gyro_raw acc_raw_direction a
 8_3_1.dat(8_3_2.dat)
 input: pid controller
 format: time angle_velocity angle controller_output(acc)  gyro_raw acc_raw_direction acc_raw
+
+9_21_1.dat(9_21_2.dat)
+input: pid controller
+format: time angle angle_velocity motor_velocity motor_acc
+
+10_6.dat
+input: 1Hz sine signal
+format:time angle_velocity angle motor_velocity motor_angle
+discribe: fixed imu to motor axis.
+
+10_7.dat
+input: 0.2 Hz sine signal
+format:time angle_velocity angle motor_velocity motor_angle
+discribe: fixed imu to motor axis.
+
+10_7_1.dat
+input: 5 Hz sine signal
+format:time angle_velocity angle motor_velocity motor_angle
+discribe: fixed imu to motor axis.
+
+10_7_2.dat
+input: 1Hz sine signal
+format:time angle_velocity angle motor_velocity motor_angle
+discribe: fixed imu to motor axis.
+
+10_14_1.dat (10_14_2.dat / 10_14_3.dat)
+input: 2Hz (5Hz / 7Hz) sine signal
+format:time angle_velocity angle motor_velocity motor_angle
+discribe: fixed imu to motor axis.
