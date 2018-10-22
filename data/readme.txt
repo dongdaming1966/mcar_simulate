@@ -101,3 +101,13 @@ discribe: fixed imu to motor axis.
 input: 2Hz (5Hz / 7Hz) sine signal
 format:time angle_velocity angle motor_velocity motor_angle
 discribe: fixed imu to motor axis.
+
+10_18_1.dat (10_18_2.dat / 10_18_3.dat / 10_18_4.dat)
+input: 1Hz (3Hz / 5Hz / 7Hz) sine signal
+format:time angle_velocity angle motor_velocity motor_angle angle_kalman angle_velocity_kalman
+discribe: changed sensor and motor unit
+
+10_18_1.dat (10_18_2.dat / 10_18_3.dat / 10_18_4.dat)
+input: 1Hz (3Hz / 5Hz / 7Hz) sine signal
+format:time angle_velocity angle motor_velocity motor_angle angle_kalman angle_velocity_kalman
+discribe: changed matrix R in kalman filter
