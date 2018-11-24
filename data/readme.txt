@@ -107,7 +107,12 @@ input: 1Hz (3Hz / 5Hz / 7Hz) sine signal
 format:time angle_velocity angle motor_velocity motor_angle angle_kalman angle_velocity_kalman
 discribe: changed sensor and motor unit
 
-10_18_1.dat (10_18_2.dat / 10_18_3.dat / 10_18_4.dat)
+10_22_1.dat (10_22_2.dat / 10_22_3.dat / 10_22_4.dat)
 input: 1Hz (3Hz / 5Hz / 7Hz) sine signal
 format:time angle_velocity angle motor_velocity motor_angle angle_kalman angle_velocity_kalman
 discribe: changed matrix R in kalman filter
+
+10_23_1.dat (10_23_2.dat)
+input: sweep frequency signal
+format:time body_angle_kalman body_velocity_kalman motor_velocity motor_acc
+discribe: used new kalman filter
